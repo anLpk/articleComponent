@@ -1,0 +1,116 @@
+@media screen and (max-width: 750px) {
+  .all-containers {
+    display: grid;
+    place-items: center;
+  }
+
+  .draw-img {
+    margin-top: 100px;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+  }
+
+  .content-container {
+    width: 330px;
+    height: 300px;
+    margin-top: -10px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+  }
+
+  .social-mobile {
+    display: grid;
+    background: hsl(217, 19%, 35%);
+    color: hsl(212, 23%, 69%);
+    letter-spacing: 3px;
+    width: 330px;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 25px;
+    position: relative;
+    top: -120px;
+    padding: 10px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    z-index: 10;
+    visibility: hidden;
+  }
+
+  .share {
+    padding: 10px;
+    position: relative;
+    left: 100px;
+    top: 8px;
+    background-color: white;
+    left: 0;
+    border-radius: 50%;
+    z-index: 11;
+  }
+
+  .share-me {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 35px;
+    margin-bottom: 6px;
+    position: relative;
+    left: -30px;
+    top: -10px;
+    width: 195px;
+    color: white;
+  }
+}
+
+@media screen and (min-width: 751px) {
+  .all-containers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+    margin-left: 50px;
+  }
+
+  .draw-img {
+    border-bottom-left-radius: 6px;
+    border-top-left-radius: 6px;
+  }
+
+  .content-container {
+    width: 450px;
+    height: 270px;
+    margin-top: -4px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+  }
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  margin: 2em 3em 1em 2em;
+}
+
+.text {
+  position: relative;
+  top: -50px;
+  left: 25px;
+}
+
+.arr-icon {
+  position: relative;
+  vertical-align: middle;
+  top: 10px;
+}
+
+.icon-container {
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 2px;
+  position: relative;
+  top: -120px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  display: none;
+}
